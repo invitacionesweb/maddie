@@ -2,6 +2,7 @@
     --color-principal:#fefdfa;
     --color-secundario:#B73C42;
     --color-terciario:#B73C42;
+        --color-cuatro:#000000;
     --font-principal:'Schoolbell', cursive;
     --font-secundaria:'Nunito Sans', sans-serif;
 }
@@ -324,7 +325,7 @@ main p {
     height: AUTO;
     padding: 90PX 0;
     margin: 0;
-    color: var(--color-principal);
+    color: var(--color-cuatro);
     background-color: var(--color-terciario);
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,11 +376,15 @@ main p {
     color: var(--color-terciario);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     
 }
 .end img {
     width: 60px;
+}
+.end .name {
+    width: 100px;
 }
 .end h2{
     padding: 0;
